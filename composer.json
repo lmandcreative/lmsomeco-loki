@@ -1,0 +1,20 @@
+{
+  "name": "lmsomeco/loki",
+  "description": "Log handler to send monolog entries to a specified endpoint",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lmsomeco\\Loki\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Niko Peltoniemi",
+      "email": "niko.peltoniemi@lmand.fi"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^2.0"
+  }
+}
